@@ -380,7 +380,250 @@ h1 h2 h3 h4 h5 h6 p {
   width: 100%;
 }
 /* Partners Part End  */
+/* Review Part CSS Start */
+#reviewPart {
+    padding: 120px 0;
+    background: #FDF9F8;
+}
 
+.reviewLeft h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.reviewLeft p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 180%;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+}
+
+.reviewLeft h4 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 180%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.reviewLeft i {
+    font-size: 24px;
+    color: #fff;
+    background: #FF5538;
+    padding: 10px 28px 10px 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    transition: .5s;
+}
+.reviewLeft i:hover {
+    color: #130F26;
+    background: #FFDDD7;
+}
+
+.reviewBox {
+    padding: 60px 0;
+}
+
+.reviewCard {
+    height: 100px;
+    width: 100px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.reviewRight {
+    height: 460px;
+    width: 440px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    margin: 0 0 0 100px;
+}
+
+/* Review Part CSS End */
+
+/* Project Part CSS End */
+#projectPart {
+    padding: 100px 0;
+    background: url(../images/Project.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.projectTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectTop h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.projectTop h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+}
+
+.projectTop a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 200%;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    padding: 15px 30px;
+    background: #FF5538;
+    border-radius: 18px;
+    border: 1px solid #FF5538;
+    transition: .5s;
+}
+
+.projectTop a:hover {
+    color: #FF5538;
+    background: transparent;
+}
+
+.pTBtn {
+    padding-top: 10px;
+}
+
+.ProjectBottom {
+    padding: 1px 0;
+    background: #29313D;
+    margin: 50px 0 25px 0;
+    filter: opacity(20%);
+}
+
+.pBTxt p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 180%;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    padding-right: 62px;
+}
+
+/* Project Part CSS End */
+
+/* Footer Part CSS Start */
+
+#footerPart {
+    padding: 140px 0 60px 0;
+    background: #fff;
+}
+
+.footerRight img {
+    transition: .5s;
+}
+
+.footerRight img:hover {
+    transform: scale(1.1);
+}
+
+.footerRight p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 180%;
+    font-family: "Nunito", sans-serif;
+    padding-top: 44px;
+}
+
+.footerLinksPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinksOne {
+    padding-left: 125px;
+}
+
+.footerLinksOne h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 0 30px 30px;
+}
+
+.footerLinks h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 140%;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 0 30px 30px;
+}
+
+.footerLinksPart ul li {
+    margin-top: 30px;
+}
+
+.footerLinksPart ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #29313D;
+    line-height: 120%;
+    font-family: "Nunito", sans-serif;
+    transition: .5s;
+    position: relative;
+}
+
+.footerLinksPart ul li a:hover {
+    color: #FF5538;
+}
+
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.crRight {
+    display: flex;
+}
+
+.crRight a {
+    padding-right: 60px;
+}
+
+.copyright a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #29313D;
+    line-height: 180%;
+    filter: opacity(90%);
+    font-family: "Nunito", sans-serif;
+    transition: .5s;
+}
+.copyright a:hover {
+    color: #FF5538;
+    font-weight: 700;
+    filter: opacity(100%);
+}
+
+/* Footer Part CSS End */
 .back-to-top {
   position: fixed;
   right: 20px;
